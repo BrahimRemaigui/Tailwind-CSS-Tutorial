@@ -4,9 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    @apply dark:bg-slate-800
+}
 .card{ 
-    @apply  h-60  relative bg-slate-100 m-10 rounded-lg overflow-hidden shadow-md 
+    @apply w-11/12 h-60 duration-150 relative bg-slate-100 m-10 rounded-lg overflow-hidden shadow-md hover:rotate-2;
 }
 .link{
     @apply px-6 hover:text-slate-400;
 } 
+
+.bare2{
+    @apply flex flex-row md:w-fit md:mx-3  justify-start border-r-4 md:border-r-0 border-white my-4  w-full  hover:text-gray-400 duration-100 
+    
+}
+.log{
+ 
+}
